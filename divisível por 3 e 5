@@ -1,17 +1,17 @@
+
 #include<stdio.h>
-#include<math.h>
- 
+
 int main()
 {
 int numero;
 printf("\nEntre com um numero:");
 scanf("%d",&numero);
  
-	if ((numero % 5)==0) && ((numero % 3)==0))
+	if (((numero % 5)==0) && ((numero % 3)==0))
 {
 printf("O NUMERO E DIVISIVEL\n");
 }
-	else if
+	else
 {
 printf("O NUMERO NAO E DIVISIVEL\n");
 }
